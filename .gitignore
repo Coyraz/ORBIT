@@ -1,0 +1,20 @@
+# ROS / Python development outputs
+build/
+install/
+log/
+__pycache__/
+*.py[cod]
+.venv/
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+.DS_Store
+# Large local recordings and generated bundle
+dist/
+*.bag
+*.db3
+*.mcap
+*.zip
